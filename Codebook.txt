@@ -3,17 +3,17 @@
 
 Body and gravity acceleration signals
 
--'tBodyAcc-XYZ'
--'tGravityAcc-XYZ'
+-'tBodyAcc.XYZ'
+-'tGravityAcc.XYZ'
 
 Gyroscope signal
  
--'tBodyGyro-XYZ'
+-'tBodyGyro.XYZ'
 
 Jerk Signals
 
--'tBodyAccJerk-XYZ'
--'tBodyGyroJerk-XYZ'
+-'tBodyAccJerk.XYZ'
+-'tBodyGyroJerk.XYZ'
 
 Magnitude of signals calculated using the Euclidean norm
 
@@ -25,9 +25,9 @@ Magnitude of signals calculated using the Euclidean norm
 
 Signals produced by a Fast Fourier Transform
 
--'fBodyAcc-XYZ'
--'fBodyAccJerk-XYZ'
--'fBodyGyro-XYZ'
+-'fBodyAcc.XYZ'
+-'fBodyAccJerk.XYZ'
+-'fBodyGyro.XYZ'
 -'fBodyAccMag'
 -'fBodyAccJerkMag'
 -'fBodyGyroMag'
@@ -57,8 +57,10 @@ The set of variables that were estimated from these signals are:
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+-'gravityMean'
+-'tBodyAccMean'
+-'tBodyAccJerkMean'
+-'tBodyGyroMean'
+-'tBodyGyroJerkMean'
+
+The output values of the variables in the script are the average of each variable for each activity and each subject.

@@ -63,4 +63,4 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 -'tBodyGyroMean'
 -'tBodyGyroJerkMean'
 
-The output values of the variables in the script are the average of each variable for each activity and each subject.
+The script extracts only the mean and std variables of the data and the output values of the variables in the script are the average of each variable for each activity and each subject.
